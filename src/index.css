@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* import fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* import fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,6 +21,24 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --font-default: "Poppins", sans-serif;
+
+  --background-color: #FAFAFA;
+  --white: #FFF;
+  --black: #000;
+
+  --main-color: #FF5151;
+  --secondary-color: #FF9B6A;
+  --tertiary-color: #161e54;  
+
+  --primary-title-color: #303030;
+  --primary-subtitle-color: #686868;
+  --secondary-title-color: #303030;
+
+  --blue-color-paragraph: #3786F1;
+  --pink-color-paragraph: #EE61CF;
+
 }
 
 .marginTop-25 {
