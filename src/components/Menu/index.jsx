@@ -7,8 +7,8 @@ function Menu() {
 
   return (
     <>
-      <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <ContainerItems toggleMenu={toggleMenu} />
+      <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
     </>
   );
 }

@@ -12,6 +12,14 @@
   .column {
     grid-template-columns: 0fr;
   }
+  .hidden-scroll {
+    overflow: auto;
+    scrollbar-width: none;
+  }
+
+  .hidden-scroll::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 :root {

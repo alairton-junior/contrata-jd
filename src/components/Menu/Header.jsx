@@ -7,11 +7,11 @@ import {
 
 function Header({ toggleMenu, setToggleMenu }) {
   return (
-    <header className="bg-white flex justify-between items-center w-full h-[60px] px-5">
+    <header className="bg-white flex justify-between items-center border-b-[1px] border-neutral-300 w-full h-[60px] px-5 duration-100 md:ps-[110px] lg:ps-[262px] md:fixed md:top-0">
       <div className="flex items-center gap-5">
         <button
           onClick={() => setToggleMenu((el) => !el)}
-          className="z-30 relative flex flex-col justify-center gap-1 h-[18px] w-7"
+          className="z-30 relative flex flex-col justify-center gap-1 h-[18px] w-7 md:hidden"
         >
           <span
             className={`absolute top-[0px] h-1 w-full bg-[#B2B2B2] duration-200 ${
