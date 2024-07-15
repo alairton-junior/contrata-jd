@@ -1,5 +1,6 @@
 import Menu from "./components/Menu";
 import Anuncio from "./components/Anuncio/Anuncio";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Menu />
       <div className="md:ps-[90px] lg:ps-[242px] md:pt-[60px] text-subtitle bg-white">
         {/* Coloquem os components aqui dentro */}
+        <Dashboard/>
         <Anuncio />
       </div>
     </>

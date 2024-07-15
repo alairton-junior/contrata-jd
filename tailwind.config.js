@@ -8,6 +8,7 @@ export default {
         Roboto: ["Roboto", "sans-serif"],
       },
       colors: {
+        textColor: "#161E54",
         subtitle: "#686868",
         coral: "#FF5151",
       },
